@@ -17,7 +17,8 @@ let AddTodo = ({ dispatch }) => {
       }}>
         <input ref={node => {
           input = node
-        }} />
+        }} placeholder="Todo Item..." />
+        {"\t"}&nbsp;
         <button type="submit">
           Add Todo
         </button>
